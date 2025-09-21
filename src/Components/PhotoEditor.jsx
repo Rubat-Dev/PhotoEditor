@@ -28,7 +28,7 @@ import { FaArrowRotateRight } from "react-icons/fa6";
 import { MdFlip } from "react-icons/md";
 import { CgEditFlipV } from "react-icons/cg";
 
-const PhotoEditot = () => {
+const PhotoEditor = () => {
   const rotateBtn = [
     { icon: <FaArrowRotateLeft />, action: "rotateRight" },
     { icon: <FaArrowRotateRight />, action: "rotateLeft" },
@@ -237,4 +237,4 @@ const PhotoEditot = () => {
   );
 };
 
-export default PhotoEditot;
+export default PhotoEditor;
